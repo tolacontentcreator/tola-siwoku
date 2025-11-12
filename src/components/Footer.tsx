@@ -1,4 +1,5 @@
 import { Linkedin, Mail, Calendar } from "lucide-react";
+import tolaLogo from "@/assets/tola-logo.png";
 
 const Footer = () => {
   return (
@@ -9,8 +10,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-center space-y-8">
           {/* Logo/Brand */}
-          <div className="text-center">
-            <h3 className="text-2xl font-bold mb-2">
+          <div className="flex flex-col items-center gap-3">
+            <img src={tolaLogo} alt="Tola Siwoku Logo" className="h-16 w-16" />
+            <h3 className="text-xl font-bold">
               Tola Siwoku <span className="text-primary">| AI Agents Builder</span>
             </h3>
           </div>
