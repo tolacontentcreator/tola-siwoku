@@ -25,7 +25,7 @@ const Testimonials = () => {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/20 border border-primary/30" />
                 <div>
-                  <p className="font-semibold">Sarah Johnson</p>
+                  <p className="font-semibold">Emerald Jacobs</p>
                   <p className="text-sm text-muted-foreground">CEO, TechStart Inc.</p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Testimonials = () => {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/20 border border-primary/30" />
                 <div>
-                  <p className="font-semibold">Michael Chen</p>
+                  <p className="font-semibold">David Meyer</p>
                   <p className="text-sm text-muted-foreground">Business Consultant</p>
                 </div>
               </div>
