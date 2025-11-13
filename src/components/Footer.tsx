@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Calendar } from "lucide-react";
+import { Linkedin, Mail, Facebook, Instagram, Globe } from "lucide-react";
 import tolaLogo from "@/assets/tola-logo.png";
 
 const Footer = () => {
@@ -20,6 +20,24 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-6">
             <a
+              href="https://www.facebook.com/tolasiwoku/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-3 rounded-full border border-border hover:border-primary transition-all duration-300 glow-hover"
+              aria-label="Facebook"
+            >
+              <Facebook className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
+            </a>
+            <a
+              href="https://www.instagram.com/ladyteee2020/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-3 rounded-full border border-border hover:border-primary transition-all duration-300 glow-hover"
+              aria-label="Instagram"
+            >
+              <Instagram className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
+            </a>
+            <a
               href="https://www.linkedin.com/in/tolasiwoku"
               target="_blank"
               rel="noopener noreferrer"
@@ -29,16 +47,16 @@ const Footer = () => {
               <Linkedin className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://aimastery.vonza.com/m/phone-consultation"
+              href="https://aimastery.vonza.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-3 rounded-full border border-border hover:border-primary transition-all duration-300 glow-hover"
-              aria-label="Book Consultation"
+              aria-label="AI Mastery Website"
             >
-              <Calendar className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
+              <Globe className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="mailto:contact@tolasiwoku.com"
+              href="mailto:hello@ladyteee2020.com"
               className="group p-3 rounded-full border border-border hover:border-primary transition-all duration-300 glow-hover"
               aria-label="Email"
             >
